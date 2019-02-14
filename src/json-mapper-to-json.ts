@@ -1,8 +1,8 @@
 'use strict';
 
-import * as _ from 'lodash';
-import * as moment from 'moment';
-import * as crypto from 'crypto';
+import _ from 'lodash';
+import moment from 'moment';
+import crypto from 'crypto';
 
 export default class JSONMapperClass {
   mapperRules = {};
