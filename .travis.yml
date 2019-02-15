@@ -14,7 +14,7 @@ node_js:
   - '11'
   - '8'
 script:
-  - npm install && npm run test:prod && npm run build
+  - npm install && npm run build
 after_success:
   - npm run report-coverage
   - npm run deploy-docs
